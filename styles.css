@@ -76,6 +76,7 @@ h1 {
 .question img {
     width: 10px;
     height: 7px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .answer {
