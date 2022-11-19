@@ -20,6 +20,7 @@ body {
 }
 
 .container {
+    height: 100vh;
     background: linear-gradient(var(--softViolet), var(--softBlue));
 }
 
@@ -98,6 +99,7 @@ h1 {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: white;
 }
 
 .attribution a {
