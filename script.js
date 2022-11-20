@@ -31,5 +31,14 @@ $('document').ready(function() {
             $(this).children('.question').children('img').css('transform', '');
         };
     });
+
+    $('.division').mouseenter(function() {
+            $(this).children('.question').addClass('hover');
+    });
+    $('.division').mouseleave(function() {
+        $(this).children('.question').removeClass('hover');
+    });
+
+    console.log($('.grid-container').css('grid-template-rows'));
 })
 
