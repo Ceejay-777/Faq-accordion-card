@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: linear-gradient(var(--softViolet), var(--softBlue));
 }
 
@@ -29,6 +29,10 @@ body {
     margin: 0px auto;
     position: relative;
     z-index: 2;
+}
+
+.box {
+    display: none;
 }
 
 .woman {
@@ -101,6 +105,7 @@ h1 {
         display: flex;
         width: 900px;    
         height: 500px;
+        margin: 0px auto;
     }
 
     .content-container {
@@ -125,8 +130,8 @@ h1 {
         background-position-y: 66%;
     }
 
-    .woman {
-        display: none;
+    .box {
+        display: inline-block;
     }
 } 
 
